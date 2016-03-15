@@ -1,0 +1,33 @@
+{
+  "name": "alp-controller",
+  "version": "0.1.0",
+  "description": "controller for alp framework",
+  "main": "./lib/index.js",
+  "browser": "./browser/lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "springbokjs-library": "^16.1.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": "alpjs/alp-controller",
+  "keywords": [
+    "alp",
+    "framework",
+    "node5"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpjs/alp-controller/issues"
+  },
+  "homepage": "https://github.com/alpjs/alp-controller#readme"
+}
