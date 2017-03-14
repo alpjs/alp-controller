@@ -6,8 +6,8 @@
   "browser": "./browser/lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^2.4.0",
-    "springbokjs-library": "^16.1.1"
+    "eslint": "^3.17.1",
+    "springbokjs-library": "^17.0.0"
   },
   "scripts": {
     "test": "make test",
